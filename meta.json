@@ -2,25 +2,21 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
-    "inputs": [
-        //e.g.
-        /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-        */
-    ],
-    //Required. Outputs the module emits.
-    "outputs": [
-      //e.g.
-      /*
-        {
-            "id": "from",
-            "title":"From"
-        }
-      */
-    ],
-    "title": "google-calendar-create-event" /* Required.A display name for the module */
+  //Required. Inputs the module expects.
+  "inputs": [
+    {
+      "id": "event_text",
+      "title": "Quick Add Text",
+      "description": "Adheres to Google Calendar Quick Add text e.g., 'meeting name tomorrow 11am to 11:30am'"
+    }
+  ],
+  //Required. Outputs the module emits.
+  "outputs": [
+  ],
+  "title": "Google Calendar Quick Add Event",
+  "icon": "google",
+  "providers": [{
+    "name": "google",
+    "scopes": [ "https://www.googleapis.com/auth/calendar" ]  
+  }]
 }

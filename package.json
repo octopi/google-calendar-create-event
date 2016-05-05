@@ -1,12 +1,14 @@
 {
-    "name": "google-calendar-create-event",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "David Hu",
-    "license": "MIT",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "google-calendar-quick-add-event",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "David Hu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "googleapis": "^5.2.1",
+    "lodash": "^3.9.3",
+    "q": "^1.4.1"
+  }
 }

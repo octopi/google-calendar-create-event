@@ -73,7 +73,7 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                event_text: 'test thing 5/6/2016 4pm to 4:30pm'
             }
         }
     }
